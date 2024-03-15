@@ -1,0 +1,2 @@
+cluster_name     = "luis-tf-test"
+cluster_region   = "us-east-1"
