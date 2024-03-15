@@ -17,3 +17,8 @@ terraform apply -var-file=tf.vars
 ```
 terraform destroy -var-file=tf.vars
 ```
+
+6. To get your local Kubeconfig:
+```
+aws eks update-kubeconfig --name (name of the cluster) --region us-east-2
+```
